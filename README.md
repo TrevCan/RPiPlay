@@ -58,6 +58,11 @@ GCC 5 or later is required.
 
 # Building on desktop Linux:
 
+|Build on|
+|--- | --- | ---|
+|[Ubuntu 18.04/20.04](#Ubuntu_18.04_or_20.04)| `code block`|data3|
+|\|escape pipe|\`backtick|data13|
+
 For building on desktop linux, follow these steps as per your distribution:
 
 ## Ubuntu 18.04 or 20.04
