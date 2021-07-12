@@ -82,6 +82,14 @@ cmake ..
 make
 ```
 
+## Arch Linux (AUR)
+```bash
+git clone https://aur.archlinux.org/packages/rpiplay-git/
+cd rpiplay-git
+makepkg -si 		# get dependencies, build, and install
+sudo avahi-daemon & 	# start avahi-daemon
+```
+
 Note: The -b, -r, -l, and -a options are not supported with the gstreamer renderer.
 
 # Global installation
